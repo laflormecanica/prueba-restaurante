@@ -1,0 +1,42 @@
+body {
+    background-color: #fffcf9;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   body,
+   html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+   
+   svg {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+   }
+   
+   .bendyUseItem text {
+    text-anchor: middle;
+    font-family: "Montserrat";
+    fill: #fff;
+    font-weight: 700;
+    font-size: 0.65em;
+    letter-spacing: 2;
+    text-transform: Uppercase;
+   }
+   
+   #phoneGroup {
+    pointer-events: none;
+   }
+   
+   .hit,
+   #bendyListItem {
+    -webkit-tap-highlight-color: transparent;
+   }
+   
